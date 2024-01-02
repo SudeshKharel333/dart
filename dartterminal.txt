@@ -1,0 +1,3 @@
+
+change directory to vscode -- cd .vscode
+run the program -- D:\flutter\.vscode> dart .\userinput.dart

@@ -1,0 +1,13 @@
+void main(List<String> args) {
+  String  coursename="dart";
+  String lesson;
+  lesson="sudesh kharel";
+  coursename="dart's";
+  print(coursename+lesson);
+  print("$coursename $lesson");
+  String  brand="asus";
+  String name="ROG";
+  String both="asus+rog";
+  print("$brand $name");
+  print(both);
+}
