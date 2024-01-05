@@ -40,7 +40,7 @@ void main(List<String> args)
   {
     print("Number 6 is not in the list");
     print('4th element is ${numbers.elementAt(3)}');//element at 4th position
-    print('index of 3 is ${numbers.indexOf(3)}'); //element of index 3 i.e. 4th element
+    print('index of 3 is ${numbers.indexOf(3)}'); // index of element 3 
   }
   
 }

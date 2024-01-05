@@ -31,7 +31,7 @@ for(int i=0;i<name.length;i++)
 }
 //another example of fixedlist of string
 List<String>fruits=List.filled(3, "");
-fruits[0]="apple";
+fruits[0]="apple";//only this method in fixedlist not--   fruits.add("apple");
 fruits[1]="banana";
 fruits[2]="mango";
 print(fruits[0]);

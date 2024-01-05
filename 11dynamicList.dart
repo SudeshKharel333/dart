@@ -7,10 +7,11 @@ void main(List<String> args)
   num.add(5);
   num.add(4);
     num.add(3);
-    
+    num.add(8);
     print(num[0]);
      print(num[2]);
       print(num);
+      print("*****");
 
       //  //num.clear(); -clears the value of num dynamic list 
       //  print(num);
