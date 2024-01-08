@@ -9,4 +9,5 @@ void main(List<String> args)
     list1.add("Friday");
     list1.add("Saturday");
     print(list1);
+    
 }

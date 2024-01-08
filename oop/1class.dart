@@ -12,6 +12,8 @@ var car2=car();
   car2.manufactureyear=2023;
   print("second car features: ${car2.colour},${car2.brand},${car2.manufactureyear}");
   car2.carRun();
+  car car3=new car();
+  car3.carRun();
 }
 class car//classs name ko pachhadi () hudaina
 {
