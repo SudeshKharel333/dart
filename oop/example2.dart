@@ -9,7 +9,7 @@ void main(List<String> args) {
 
 
   createStudentList(allstudents);//yesbata aako output allstudents mai store hunchha
-  print('student${allstudents[5].number} ${allstudents[5].grade}');
+  print('student${allstudents[5].number} ${allstudents[5].grade}');//print matra grya
   for(Student currentstudent in allstudents)
   {
     print(currentstudent);
@@ -17,14 +17,14 @@ void main(List<String> args) {
 
 }
 //create a function
-void createStudentList(List<Student>liast)
+void createStudentList(List<Student>list)
 {
   print("*****");
-  for(int i=0;i<liast.length;i++)
+  for(int i=0;i<list.length;i++)
   {
-    liast[i]=Student(number: Random().nextInt(200),grade: Random().nextInt(100));/*random is used for randomly generating numbers
+    list[i]=Student(number: Random().nextInt(200),grade: Random().nextInt(100));/*random is used for randomly generating numbers
  100,200 max value ho*/
- print("${liast[i]}");
+ print("${list[i]}");
   }
   print("*****");
 }

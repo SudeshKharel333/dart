@@ -1,9 +1,9 @@
 void main(List<String> args) 
 {
-  Student student1=Student (1,"sudesh");
-  print("***");
-  print(student1);//instance display hunchha
-  print("***");
+  // Student student1=Student (1,"sudesh");
+  // print("***");
+  // print(student1);//instance display hunchha
+  // print("***");
  // Student student2 = Student.id(2);
 // int sum1=newMethod(sum);
 // print("${sum1}");
@@ -17,7 +17,7 @@ print("student3 ${student3.id} ${student3.name}");
 //  }
 }
 
-int newMethod(int sum()) => sum();
+//int newMethod(int sum()) => sum();
 class Student
 {
   int id=0;
@@ -31,9 +31,10 @@ class Student
     // print('named constructor is triggered');
     // }
   }
-  factory Student .usingFactory(int id,String name)
+  factory Student .usingFactory(int id,String name)/*The factory constructor should return an instance 
+  of the class*/
   {
-    if(id<0)
+    if(id>0)
     {
       return Student(3, "anish");
     }

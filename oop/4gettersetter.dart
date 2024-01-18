@@ -5,8 +5,8 @@ void main(List<String> args)
 {
   car car1=car();
   car1.yearchange=2020;
-  //print(car1.yearchange;)  -gives null since yearchange is setter
-  print(car1);
+  // print(car1.yearchange;)  -gives null since yearchange is setter
+  // print(car1);
   //print(car1.manufactureyear); manufacture year private vayera error aauchha
   print(car1.giveyear);
 }

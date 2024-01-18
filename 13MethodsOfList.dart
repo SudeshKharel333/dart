@@ -5,8 +5,8 @@ void main(List<String> args)
   print(numbers.first);//first  number display
   print(numbers.last);  //last number display
   
-  print(numbers.isEmpty.toString());//dispalys true if data is empty
-  print(numbers.length.toString());//displays length of lists
+  print(numbers.isEmpty);//dispalys true if data is empty
+  print(numbers.length);//displays length of lists
   print(numbers.reversed);
   print('reverse list ${numbers.reversed}');
   numbers.add(7);
