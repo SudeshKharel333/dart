@@ -5,7 +5,7 @@ void main(List<String> args)
   c1.giveBrand("tata");
   c1.givecolor("red");
   car.getCar();
-  // c1.getCar(); error aauxa static huda classname.method hunuprxa instead of object.method
+  //c1.getCar();// error aauxa static huda classname.method hunuprxa instead of object.method
   car c2=car();
   c2.givecolor("black");
   c2.giveBrand("Hyundai");
