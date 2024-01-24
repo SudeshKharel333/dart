@@ -1,7 +1,8 @@
+// static variable or method huda classname.method hunxa instead of object.methodname 
 void main(List<String> args) 
 {
   car c1=car();
-  print(car.manufactureyear);//static huda object chaidaina class.method bata pani run grna sakinchha
+  print(car.manufactureyear);//static huda object bata mildaina class.method bata  run grna prchha
   c1.giveBrand("tata");
   c1.givecolor("red");
   car.getCar();

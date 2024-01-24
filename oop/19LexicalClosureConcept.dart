@@ -9,7 +9,7 @@ void main(List<String> args)
       {
         var zVar=5;
         print(x);//lexical closure concept accessing variable from the outer class
-        print(yVar);
+        print(yVar);//print kina vayena
 
       }
     }

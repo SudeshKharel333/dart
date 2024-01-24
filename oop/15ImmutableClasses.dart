@@ -13,7 +13,8 @@ void main(List<String> args)
 }
  class Product
   {
-    final int id;
+    final int id;// In Dart, if a constructor is marked as const, it implies that all the fields 
+    //within the class should also be final.
     final String name;
     const Product(this.id,this.name);
   }  

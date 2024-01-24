@@ -2,12 +2,13 @@ void main(List<String> args)
 {//method of mapping
   Map<String,dynamic> Map1=Map();
   Map<String,dynamic> Map2=Map();
-  var Map3={1:2};
+  // var Map3={1:2}; yo narakhda pani hunxa
   Map1["id"]=1;
   Map1["name"]="sudesh";
   Map1["age"]=22;
   //operating a constructor
-  Map newMap=Map.from({'newkey':'new value'});//new key ra new value ko thauma j string rakhda pani hunxa in using this we can use map inside of the map
+  Map newMap=Map.from({'newkey':'new value'});//new key ra new value ko thauma j string rakhda pani hunxa
+  // in using this we can use map inside of the map
   //use map elment directly
   //key value pair together creates entries
   Map mapFromEntries=Map.fromEntries(Map1.entries);//Map1.entries vnya entries like sudesh age fromEntries-map

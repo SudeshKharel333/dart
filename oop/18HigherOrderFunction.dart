@@ -6,7 +6,7 @@ void main(List<String> args)
     // {
     //   print("$element");
     //   });
-    list1.forEach(callback);
+    list1.forEach(callback);//callback  vnya euta skaiyepachi arko call grchha
 }
 void callback(int element)
 {
