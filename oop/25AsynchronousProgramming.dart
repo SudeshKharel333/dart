@@ -25,7 +25,8 @@ longPress()
   
 
   //
-  Future.delayed(Duration(seconds: 10 ),(){//specific code matra delay hunchha
+  Future.delayed(Duration(seconds: 10 ),()
+  {//specific code matra delay hunchha
     print(" hello everyone");
   }
   );
